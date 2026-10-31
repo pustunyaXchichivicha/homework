@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 1: Переменные и вывод
         int myInt = 10;
         byte myByte = 5;
         short myShort = 100;
@@ -15,15 +14,13 @@ public class Main {
         System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
         System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
 
-        // Задание 2: Спортзавтрак
         int grams = (5 * 80) + (2 * 105) + (2 * 100) + (4 * 70);
-        double kilograms = grams / 1000.0; // Делим на 1000.0, чтобы получить дробь
+        double kilograms = grams / 1000.0;
 
         System.out.println("Вес в граммах: " + grams);
         System.out.println("Вес в килограммах: " + kilograms);
 
-        // Задание 3: Зарплата (считаем прибавку напрямую)
-        int mashaBonus = 67760 / 10; // 10% от зарплаты
+        int mashaBonus = 67760 / 10;
         int denisBonus = 83690 / 10;
         int kristinaBonus = 76230 / 10;
 
